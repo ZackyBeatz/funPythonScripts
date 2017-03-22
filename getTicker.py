@@ -28,5 +28,5 @@ df = web.DataReader('AAPL', 'yahoo', start, end)
 # can save it to a CSV file by using df.to_csv
 ##df.to_csv('AAPL.csv')
 
-# prints the last 5 days
-print(df.tail(5))
+# prints the last 6 days 
+print(df.tail(6))
